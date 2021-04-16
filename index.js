@@ -40,7 +40,7 @@ function init() {
             console.log("Your responses:", data);
             console.log("Your responses have been logged");
             console.log ("Generating your markdown file...");
-            fs.writeFile("NewReadme.md",generateReadme(data),function(err){
+            fs.writeFile("Readme_new.md",generateReadme(data),function(err){
                 if (err) throw err;
                 console.log("New file successfully written.")
     
