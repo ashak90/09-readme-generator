@@ -28,7 +28,7 @@ const questions = [
         message:'Enter installation instructions:'
     },
     {
-        type:'input',
+        type:'list',
         name: 'Usage',
         message:'Choose a License for your Readme:',
         choices: [
@@ -37,13 +37,13 @@ const questions = [
             "MIT",
             "Boost Software License",
             "Unlicense",
-        ]
+        ],
     },
-    {
-        type:'list',
-        name: 'License',
-        message:'Enter your GitHub username here:'
-    },
+    // {
+    //     type:'list',
+    //     name: 'License',
+    //     message:'Enter your GitHub username here:'
+    // },
     {
         type:'input',
         name: 'GitHub',
