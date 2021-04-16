@@ -6,7 +6,28 @@ const path = require('path');
 
 
 // TODO: Create an array of questions for user input
-const questions = [];
+const questions = [
+    {
+        type: 'input',
+        name:'Author',
+        nessage: "Enter the author's (your) name?",
+    },
+    {
+        type:'input',
+        name: 'Title',
+        message:'What is the title of your project?'
+    },
+    {
+        type:'input',
+        name: 'Description',
+        message:'Describe your project:'
+    },
+    {
+        type:'input',
+        name: 'Table',
+        message:'What is the title of your project?'
+    }
+];
 
 // TODO: Create a function to write README file
 function writeToFile(fileName, data) {}
