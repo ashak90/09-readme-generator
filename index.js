@@ -45,6 +45,11 @@ function init() {
                 console.log("New file successfully written.")
     
             })
+            fs.writeFile("Readme.md",generateReadme(data),function(err){
+                if (err) throw err;
+                console.log("New file successfully written.")
+    
+            })
         })
 }
 
