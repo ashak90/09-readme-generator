@@ -24,8 +24,40 @@ const questions = [
     },
     {
         type:'input',
-        name: 'Table',
-        message:'What is the title of your project?'
+        name: 'Installation',
+        message:'Enter installation instructions:'
+    },
+    {
+        type:'input',
+        name: 'Usage',
+        message:'Choose a License for your Readme:',
+        choices: [
+            "Mozilla Public License",
+            "Apache",
+            "MIT",
+            "Boost Software License",
+            "Unlicense",
+        ]
+    },
+    {
+        type:'list',
+        name: 'License',
+        message:'Enter your GitHub username here:'
+    },
+    {
+        type:'input',
+        name: 'GitHub',
+        message:'Enter your GitHub username here:'
+    },
+    {
+        type:'input',
+        name: 'Tests',
+        message:'Enter testing information for your application:'
+    },
+    {
+        type:'input',
+        name: 'Email',
+        message:'Enter your email address where you can reached for questions:'
     }
 ];
 
