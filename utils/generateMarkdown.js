@@ -10,12 +10,13 @@ function renderLicenseLink(license) {}
 // If there is no license, return an empty string
 function renderLicenseSection(license) {}
 
+const licenseBadge = require("./licenseBadges")
 // TODO: Create a function to generate markdown for README
 function generateMarkdown(data) {
   return `
   
   # ${data.Title}
-  ${licenseBadges(data)}
+  ${licenseBadge(data)}
 
   ### Project Authored By: ${data.Author}
   ### Description: ${data.Description}
@@ -37,9 +38,9 @@ function generateMarkdown(data) {
   ${data.Usage}
 
   ### License 
-  ${licenseBadges(data)}
+  ${licenseBadge(data)}
 
-  ###Contributing 
+  ### Contributing 
 
 
 `;

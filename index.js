@@ -29,7 +29,7 @@ const questions = [
     },
     {
         type:'list',
-        name: 'Usage',
+        name: 'License',
         message:'Choose a License for your Readme:',
         choices: [
             "Mozilla Public License",
