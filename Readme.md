@@ -8,12 +8,14 @@
   **
 
   ## Table of Contents
-    * [Installation](#installation)
-    * [Usage](#usage)
-    * [License](#license) 
-    * [Contributing](#contributing)
-    * [Tests](#tests)
-    * [Questions](#questions)
+
+  * [Installation](#installation)
+  * [Usage](#usage)
+  * [License](#license) 
+  * [Contributing](#contributing)
+  * [Tests](#tests)
+  * [Questions](#questions)
+
   **
 
   ## Installation 
@@ -31,7 +33,7 @@
   ## Tests
   none
 
-  ### Questions:
+  ## Questions:
   If you have any questions about this project, you can reach me [on GitHub](https://github.com/ashak90) or via email at ashakumar90@gmail.com.
 
 
