@@ -20,7 +20,8 @@
   **
 
   ## Walkthrogh Video 
-  ![video](https://youtu.be/TG0STTMw5rw)
+
+  [video](https://youtu.be/TG0STTMw5rw)
 
 
   ## Installation 
