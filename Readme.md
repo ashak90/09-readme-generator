@@ -7,7 +7,7 @@
   ### Description: This application is designed to generat a Readme markdown file, with all of the information the user enters. 
   **
 
-  ### Table of Contents
+  ## Table of Contents
     * [Installation](#installation)
     * [Usage](#usage)
     * [License](#license) 
@@ -16,19 +16,19 @@
     * [Questions](#questions)
   **
 
-  ### Installation 
+  ## Installation 
   To install this project: first download all of the files in this repository. Then open those files in VS code. Run the terminal in VS code. De sure you are targeting the current directory and then run NPM install. 
 
-  ### Usage
+  ## Usage
   To use this project. Once you have completed the installation instructions, Run node index.js in the terminal (once again making sure you are in the appropriate directory). Answer the Subsequent prompts in the terminal. Once all of the prompts are answered a new Readme, called Readme_new, will show in the directory. 
 
-  ### License 
+  ## License 
   [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
-  ### Contributing
+  ## Contributing
   If you would like to add to this project, you can [follow me on GitHub](https://github.com/ashak90).  
 
-  ### Tests
+  ## Tests
   none
 
   ### Questions:

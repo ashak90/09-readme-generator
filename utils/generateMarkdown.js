@@ -22,7 +22,7 @@ function generateMarkdown(data) {
   ### Description: ${data.Description}
   **
 
-  ### Table of Contents
+  ## Table of Contents
     * [Installation](#installation)
     * [Usage](#usage)
     * [License](#license) 
@@ -31,22 +31,22 @@ function generateMarkdown(data) {
     * [Questions](#questions)
   **
 
-  ### Installation 
+  ## Installation 
   ${data.Installation}
 
-  ### Usage
+  ## Usage
   ${data.Usage}
 
-  ### License 
+  ## License 
   ${licenseBadge(data)}
 
-  ### Contributing
+  ## Contributing
   If you would like to add to this project, you can [follow me on GitHub](https://github.com/${data.GitHub}).  
 
-  ### Tests
+  ## Tests
   ${data.Tests}
 
-  ### Questions:
+  ## Questions:
   If you have any questions about this project, you can reach me [on GitHub](https://github.com/${data.GitHub}) or via email at ${data.Email}.
 
 
