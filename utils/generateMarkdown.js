@@ -10,7 +10,7 @@ function renderLicenseLink(license) {}
 // If there is no license, return an empty string
 function renderLicenseSection(license) {}
 
-const licenseBadge = require("./licenseBadges")
+const licenseBadge = require("./licenseBadges");
 // TODO: Create a function to generate markdown for README
 function generateMarkdown(data) {
   return `
@@ -40,7 +40,11 @@ function generateMarkdown(data) {
   ### License 
   ${licenseBadge(data)}
 
-  ### Contributing 
+  ### Contributing
+  If you would like to add to this project, you can [follow me on GitHub](https://github.com/${data.GitHub}).  
+
+  ### Questions:
+  If you have any questions about this project, you can reach me [on GitHub](https://github.com/${data.GitHub}) or via email at ${data.Email}.
 
 
 `;

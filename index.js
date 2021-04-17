@@ -39,11 +39,6 @@ const questions = [
             "Unlicense",
         ],
     },
-    // {
-    //     type:'list',
-    //     name: 'License',
-    //     message:'Enter your GitHub username here:'
-    // },
     {
         type:'input',
         name: 'GitHub',
