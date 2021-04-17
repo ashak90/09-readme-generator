@@ -43,7 +43,7 @@ function generateMarkdown(data) {
   ### Contributing
   If you would like to add to this project, you can [follow me on GitHub](https://github.com/${data.GitHub}).  
 
-  ## Tests
+  ### Tests
   ${data.Tests}
 
   ### Questions:

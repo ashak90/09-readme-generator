@@ -28,6 +28,11 @@ const questions = [
         message:'Enter installation instructions:'
     },
     {
+        type:'input',
+        name: 'Usage',
+        message:'Enter usage information:'
+    },
+    {
         type:'list',
         name: 'License',
         message:'Choose a License for your Readme:',
