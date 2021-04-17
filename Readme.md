@@ -21,7 +21,7 @@
 
   ## Walkthrogh Video 
 
-  (https://youtu.be/TG0STTMw5rw)
+  ![Click here to be redirected to YouTube.](https://youtu.be/TG0STTMw5rw)
 
 
   ## Installation 
