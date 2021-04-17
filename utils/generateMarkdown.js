@@ -23,12 +23,12 @@ function generateMarkdown(data) {
   **
 
   ### Table of Contents
-    * [Installation] (#installation)
-    * [Usage] (#usage)
-    * [License] (#license) 
-    * [Contributing] (#contributing)
-    * [Tests] (#tests)
-    * [Questions] (#questions)
+    * [Installation](#installation)
+    * [Usage](#usage)
+    * [License](#license) 
+    * [Contributing](#contributing)
+    * [Tests](#tests)
+    * [Questions](#questions)
   **
 
   ### Installation 
@@ -42,6 +42,9 @@ function generateMarkdown(data) {
 
   ### Contributing
   If you would like to add to this project, you can [follow me on GitHub](https://github.com/${data.GitHub}).  
+
+  ## Tests
+  ${data.Tests}
 
   ### Questions:
   If you have any questions about this project, you can reach me [on GitHub](https://github.com/${data.GitHub}) or via email at ${data.Email}.
