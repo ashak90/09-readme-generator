@@ -9,6 +9,7 @@
 
   ## Table of Contents
 
+  * [Walkthrough Video](#walthrough-video)
   * [Installation](#installation)
   * [Usage](#usage)
   * [License](#license) 
@@ -17,6 +18,12 @@
   * [Questions](#questions)
 
   **
+
+  ## Walkthrogh Video 
+  ![screenshot](https://youtu.be/TG0STTMw5rw)
+
+
+
 
   ## Installation 
   To install this project: first download all of the files in this repository. Then open those files in VS code. Run the terminal in VS code. De sure you are targeting the current directory and then run NPM install. 
